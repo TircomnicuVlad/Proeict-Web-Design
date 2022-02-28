@@ -1,0 +1,115 @@
+html {
+	background-color:#262626;
+}
+
+h1 {
+	text-align:center;
+	color: white;
+	transform:rotateX(10deg);
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border: 1px solid black;
+}
+
+li {
+  float: left;
+  border-right: 1px solid black;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+
+.active {
+  background-color: silver;
+  color:black;
+}
+
+.active:hover {
+	background-color: red;
+}
+
+li.right {
+	float:right
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:auto;
+	max-width: 30%;
+	min-width: 30%;
+}
+
+h3 {
+	margin-top:100px;
+	color:black;
+	text-align:center;
+	font-family:Arial;
+}
+
+div.lista{
+	border: 10px solid red;
+	margin-top:100px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10%;
+	background-color:white;
+	max-width:80%;
+	min-width:80%;
+	padding-bottom:100px;
+}
+
+label {
+	color:white;
+	font-size:20px;
+	font-family:Arial;
+}
+
+form {
+	margin-top: 30px;
+	margin-left:30px;
+	margin-bottom: 30px;
+}
+
+select {
+	background-color:black;
+	color:white;
+	font-size:15px;
+}
+
+.stea {
+	max-height:30px;
+	max-width:30px;
+	min-height:30px;
+	min-width:30px;
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+ table{
+	 margin-left:auto;
+	 margin-right:auto;
+ }
+ 
